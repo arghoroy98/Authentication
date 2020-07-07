@@ -11,7 +11,7 @@ var app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(require("express-session")({
-    secret: "Rusty is the best and cutest dog in the world",
+    secret: "This is the stuff that encrypts your pass",
     resave: false,
     saveUninitialized: false
 }));
